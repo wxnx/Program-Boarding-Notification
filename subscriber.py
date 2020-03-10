@@ -14,7 +14,7 @@ def on_message(client, userdata, message):
 
     if match:
         #   Header Boarding
-        header = " " + " " + " " + " " + "Flight" + " " + " " + "Time " + " " + " " + "Destination" + " " + " " + "Gate" + "\n"
+        header = " " + " " + " " + " " + "TIme" + " " + " " + "Flight " + " " + " " + "Destination" + " " + " " + "Gate" + "\n"
         print(header)
         print(pesan)
         with open("boarding.txt", "a+") as file:
@@ -22,7 +22,7 @@ def on_message(client, userdata, message):
             file.write(pesan + "\n")
     else:
         #   Header Transit
-        header = " " + " " + " " + " " + "Time" + " " + " " + "Flight" + " " + " " + "Destination" + " " + " " + "Gate" + "\n"
+        header = " " + " " + " " + " " + "Destination" + " " + " " + "Flight" + " " + " " + "Time" + " " + " " + "Terminal" + "\n"
         print(header)
         print(pesan)
         with open("lokasi.txt", "a+") as file:

@@ -19,11 +19,11 @@ client.loop_start()
 #   perulangan untuk inputan transit
 while True:
     #   inputan transit
-    time        =   input("Input Time        :")
+    destination =   input("Input Destination :")      
     flight      =   input("Input Flight      :")
-    destination =   input("Input Destination :")     
-    gate        =   input("Input Gate        :")      
-    msg         =   time +  " " + " " + flight +  " " + " " + destination +  " " + " " +  " " + " " +  " " + " " + " " + " " + gate 
+    time        =   input("Input Time        :")
+    terminal    =   input("Input Terminal    :")      
+    msg         =   destination +  " " + " " + flight +  " " + " " + time +  " " + " " +  " " + " " +  " " + " " + " " + " " + terminal 
     #   melakukan publish 
     client.publish("pemberitahuan_transit", 'NamaKota' + " " + msg)
     #   menanyakan apakah ingin menginputkan boarding lagi
