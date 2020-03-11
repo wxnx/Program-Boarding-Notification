@@ -23,7 +23,7 @@ while True:
     flight      =   input("Input Flight      :")
     time        =   input("Input Time        :")
     terminal    =   input("Input Terminal    :")      
-    msg         =   destination +  " " + " " + flight +  " " + " " + time +  " " + " " +  " " + " " +  " " + " " + " " + " " + terminal 
+    msg         =   destination +  " " + " " + flight +  " " + " " + time +  " " + " " + terminal 
     #   melakukan publish 
     client.publish("pemberitahuan_transit", 'NamaKota' + " " + msg)
     #   menanyakan apakah ingin menginputkan boarding lagi

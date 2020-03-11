@@ -24,7 +24,7 @@ def on_message(client, userdata, message):
     else:
         #   Header Transit
         print("Arrivals")
-        header = " " + " " + " " + " " + " " + " " + " " + "Origin" + " " + " " + "Flight" + " " + " " + "Time" + " " + " " + "Terminal" + "\n"
+        header = " " + " " + " " + " " + " " + " " + " " + " " + " " + "Origin" + " " + " " + "Flight" + " " + " " + "Time" + " " + " " + "Terminal" + "\n"
         print(header)
         print(pesan)
         with open("lokasi.txt", "a+") as file:
