@@ -1,0 +1,4 @@
+      Time  Flight   Destination  Gate
+waktu 07.00  LA100   Jakarta       A12
+      Time  Flight   Destination  Gate
+waktu 08.00  LA123   Bandung       F10
