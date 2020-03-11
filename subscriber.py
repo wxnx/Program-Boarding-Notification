@@ -15,7 +15,7 @@ def on_message(client, userdata, message):
     if match:
         #   Header Boarding
         print("Departures")
-        header = " " + " " + " " + " " + "TIme" + " " + " " + "Flight " + " " + " " + "Destination" + " " + " " + "Gate" + "\n"
+        header = " " + " " + " " + " " +  " " + " " +"Time" + " " + " " + "Flight " + " " + " " + "Destination" + " " + " " + "Gate" + "\n"
         print(header)
         print(pesan)
         with open("boarding.txt", "a+") as file:
@@ -23,8 +23,8 @@ def on_message(client, userdata, message):
             file.write(pesan + "\n")
     else:
         #   Header Transit
-        print(Arrivals)
-        header = " " + " " + " " + " " + "Destination" + " " + " " + "Flight" + " " + " " + "Time" + " " + " " + "Terminal" + "\n"
+        print("Arrivals")
+        header = " " + " " + " " + " " + " " + " " + " " + "Origin" + " " + " " + "Flight" + " " + " " + "Time" + " " + " " + "Terminal" + "\n"
         print(header)
         print(pesan)
         with open("lokasi.txt", "a+") as file:

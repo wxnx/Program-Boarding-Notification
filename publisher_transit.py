@@ -19,7 +19,7 @@ client.loop_start()
 #   perulangan untuk inputan transit
 while True:
     #   inputan transit
-    destination =   input("Input Destination :")      
+    destination =   input("Input Origin      :")      
     flight      =   input("Input Flight      :")
     time        =   input("Input Time        :")
     terminal    =   input("Input Terminal    :")      
