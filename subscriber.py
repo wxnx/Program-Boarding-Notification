@@ -14,6 +14,7 @@ def on_message(client, userdata, message):
 
     if match:
         #   Header Boarding
+        print("Departures")
         header = " " + " " + " " + " " + "TIme" + " " + " " + "Flight " + " " + " " + "Destination" + " " + " " + "Gate" + "\n"
         print(header)
         print(pesan)
@@ -22,6 +23,7 @@ def on_message(client, userdata, message):
             file.write(pesan + "\n")
     else:
         #   Header Transit
+        print(Arrivals)
         header = " " + " " + " " + " " + "Destination" + " " + " " + "Flight" + " " + " " + "Time" + " " + " " + "Terminal" + "\n"
         print(header)
         print(pesan)
