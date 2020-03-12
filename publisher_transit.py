@@ -15,7 +15,7 @@ client.connect(broker_address, port=1883)
 #   mulai loop client
 client.loop_start()
 
-#   melakukan publish boarding dan lokasi dengan topik "pemberitahuan"
+#   melakukan publish transit dan lokasi dengan topik "pemberitahuan"
 #   perulangan untuk inputan transit
 while True:
     #   inputan transit
@@ -26,7 +26,7 @@ while True:
     msg         =   destination +  " " + " " + flight +  " " + " " + time +  " " + " " + terminal 
     #   melakukan publish 
     client.publish("pemberitahuan_transit", 'NamaKota' + " " + msg)
-    #   menanyakan apakah ingin menginputkan boarding lagi
+    #   menanyakan apakah ingin menginputkan transit lagi
     ask         =   input("Apakah ingin menginputkan Transit Location Schedule lagi? Ya/Tidak :")
     #   ini kondisinya
     if ask=="Ya" or ask=="y" or ask=="Y" or ask=="ya":
