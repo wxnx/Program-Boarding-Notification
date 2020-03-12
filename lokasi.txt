@@ -1,4 +1,4 @@
          Origin  Flight  Time  Terminal
-NamaKota Bengkulu  LA100  8.15  2A
+NamaKota Bengkulu  LA100  08.45  2A
          Origin  Flight  Time  Terminal
-NamaKota Padang  LA123  09.00  3A
+NamaKota Padang  LA123  12.15  1B

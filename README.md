@@ -6,9 +6,7 @@ Untuk development programnya kami menggunakan bahasa Pemrograman Python, beserta
 Ihza Ghobah (Developer)<br/>
 Wino Rama Putra (Developer).
 
-# b. Prosedur Instalasi
+# c. Prosedur Instalasi
 1.  Jalankan Broker/Mosquitto-MQTT.<br/>
-![alt text](https://github.com/winsxz/Program-Boarding-Notification/blob/master/img/mosquitto.png)<br/>
 2.  Jalankan Program Subscribenya.<br/>
 3.  Jalankan Program Publishnya.<br/>
-
